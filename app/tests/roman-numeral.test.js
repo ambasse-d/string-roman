@@ -21,3 +21,7 @@ test('shoud return X when value equal 10', () => {
   expect(utils.arabicToRoman(10)).toBe('X');
 })
 
+
+test('shoud return L when value equal 50', () => {
+  expect(utils.arabicToRoman(50)).toBe('L');
+})
