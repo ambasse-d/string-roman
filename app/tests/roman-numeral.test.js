@@ -14,6 +14,6 @@ test('shoud return I when value equal 3', () => {
 })
 
 test('shoud return I when value equal 4', () => {
-  expect(utils.arabicToRoman(3)).toBe('V');
+  expect(utils.arabicToRoman(4)).toBe('V');
 })
 
