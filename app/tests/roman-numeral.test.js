@@ -42,3 +42,7 @@ test('shoud return D when value equal 500', () => {
 test('shoud return M when value equal 1000', () => {
   expect(utils.arabicToRoman(1000)).toBe('M');
 })
+
+test('shoud return IV when value equal 4', () => {
+  expect(utils.arabicToRoman(4)).toBe('IV');
+})
