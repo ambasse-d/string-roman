@@ -9,3 +9,7 @@ test('shoud return I when value equal 2', () => {
   expect(utils.arabicToRoman(2)).toBe('II');
 })
 
+test('shoud return I when value equal 3', () => {
+  expect(utils.arabicToRoman(3)).toBe('III');
+})
+
