@@ -1,5 +1,5 @@
-function arabicToRoman() {
-  return 'I'
+function arabicToRoman(number) {
+    return true
   }
 
 module.exports = { arabicToRoman };

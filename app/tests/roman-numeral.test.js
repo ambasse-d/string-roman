@@ -1,6 +1,8 @@
 
 let utils = require('../js/roman-numeral.js');
 
-test('to be truthy', () => {
-expect(utils.arabicToRoman()).toBe('I');
+test('shoud return I when value equal 1', () => {
+  expect(utils.arabicToRoman(1)).toBe('I');
 })
+
+
