@@ -6,7 +6,6 @@ function arabicToRoman(number) {
     if (number === 10) return 'X'
     if (number === 50) return 'L'
     if (number === 100) return 'C'
-
   }
 
 module.exports = { arabicToRoman };
