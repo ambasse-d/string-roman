@@ -1,14 +1,28 @@
 function arabicToRoman(number) {
-    if (number === 1) return 'I'
-    if (number === 2) return 'II'
-    if (number === 3) return 'III'
-    if (number === 5) return 'V'
-    if (number === 10) return 'X'
-    if (number === 50) return 'L'
-    if (number === 100) return 'C'
-    if (number === 500) return 'D'
-    if (number === 1000) return 'M'
+    const I = 'I';
+    const V = 'V';
+    const X = 'X';
+    const L = 'L';
+    const C = 'C';
+    const D = 'D';
+    const M = 'M';
 
+    let result = ""
+
+    if (number<=3){
+      for (let e = 0; e < number; e++) {
+        result += I;
+      }
+    }
+
+    if (number === 5) result +=  V
+    if (number === 10) result +=  X
+    if (number === 50) result +=  L
+    if (number === 100) result +=  C
+    if (number === 500) result +=  D
+    if (number === 1000) result +=  M
+
+    return result
   }
 
 module.exports = { arabicToRoman };
